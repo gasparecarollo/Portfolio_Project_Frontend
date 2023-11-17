@@ -3,16 +3,18 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 
 const API = import.meta.env.VITE_BASE_URL;
 
-function MenuItemForm() {
+function MenuItemEditForm() {
     let { id } = useParams();
     const navigate = useNavigate();
 
     const [menuItem, setMenuItem] = useState({
         name: "",
-        url: "",
+        image_id: "",
+        category: "",
         description: "",
-        is_favorite: false,
-
+        price: "",
+        out_of_stock: false,
+        ranking: "",
     });
 
     const handleTextChange = (event) => {
@@ -21,7 +23,7 @@ function MenuItemForm() {
     };
 
     const handleCheckboxChange = () => {
-        setMenuItem({ ...menuItem, is_favorite: !bookmark.is_favorite })
+        setMenuItem({ ...menuItem, out_of_stock: !menuItem.out_of_stock })
     };
 
     const updateMenuItem = () => {
@@ -36,9 +38,6 @@ function MenuItemForm() {
         })
             .then((response) => {
                 navigate(`/menuItems/${id}`);
-            })
-            .then((response) => {
-                navigate(`/bookmarks/${id}`);
             })
             .catch((error) => console.error("catch", error));
 
@@ -60,5 +59,80 @@ function MenuItemForm() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        updateMenuItems();
-    }
+        updateMenuItem();
+    };
+
+    return (
+        <div className="Edit">
+            <form onSubmit={handleSubmit}>
+                <label htmlFor="name"> Name: </label>
+                <input
+                    id="name"
+                    value={menuItem.name}
+                    type="text"
+                    onChange={handleTextChange}
+                    placeholder="Name of food item"
+                    required />
+
+                <label htmlFor="image_id" > image_id: </label>
+                <input
+                    id="image_id"
+                    type="text"
+                    value={menuItem.image_id}
+                    placeholder="name of the image in your assets folder"
+                    onChange={handleTextChange}
+                />
+                <label
+                    htmlFor="category"> Category: </label>
+                <input
+                    id="category"
+                    type="text"
+                    name="category"
+                    value={menuItem.category}
+                    placeholder="name of the category of food for this menu item"
+                    onChange={handleTextChange}
+                />
+                <label
+                    htmlFor="out_of_stock"
+                    id="stock"
+                    type="checkbox"
+                    onChange={handleCheckboxChange}
+                    checked={menuItem.out_of_stock}
+                />
+                <label
+                    htmlFor="description"> Description:</label>
+                <textarea
+                    id="description"
+                    name="description"
+                    value={menuItem.description}
+                    onChange={handleTextChange}
+                    placeholder="Description of the food item you are adding to the menu."
+                />
+                <label htmlFor="price"> Price </label>
+                <input id="price" value={menuItem.price}
+                    type="number"
+                    onChange={handleText}
+                    placeholder="Price of the food item"
+                    required
+                />
+
+                <label htmlFor="ranking" > Ranking: </label>
+                <input
+                    id="ranking"
+                    name="ranking"
+                    type="number"
+                    value={menuItem.ranking}
+                    onChange={handleTextChange}
+                    placeholder="Rank the food item from 1-10"
+                />
+                <br />
+                <input type="submit" />
+            </form >
+            <Link to={`menuItems/${id}`}>
+                <button> On Second Thought!</button>
+            </Link>
+        </div >
+    );
+}
+
+module.exports = MenuItemEditForm;
