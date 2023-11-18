@@ -103,6 +103,9 @@ function MenuItemNewForm() {
                     id="ranking"
                     name="ranking"
                     type="number"
+                    min="0"
+                    max="10"
+                    step="1"
                     value={menuItem.ranking}
                     onChange={handleTextChange}
                     placeholder="A ranking between 1 and 10"
