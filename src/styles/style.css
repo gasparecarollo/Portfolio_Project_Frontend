@@ -1,0 +1,1467 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    height: 1700px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop .overlap {
+    height: 1571px;
+    left: -95px;
+    position: absolute;
+    top: -95px;
+    width: 1612px;
+}
+
+.desktop .foodtruckdesign {
+    height: 1080px;
+    left: 95px;
+    object-fit: cover;
+    position: absolute;
+    top: 491px;
+    width: 1440px;
+}
+
+.desktop .text-wrapper {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 342px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 1171px;
+    white-space: nowrap;
+}
+
+.desktop .rectangle {
+    height: 536px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 1440px;
+}
+
+.desktop .polygon {
+    height: 215px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 190px;
+}
+
+.desktop .rectangle-2 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 169px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(45.7deg);
+    width: 97px;
+}
+
+.desktop .rectangle-3 {
+    background-color: #f60000;
+    height: 723px;
+    left: 245px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(46.49deg);
+    width: 112px;
+}
+
+.desktop .img {
+    height: 215px;
+    left: 1327px;
+    position: absolute;
+    top: 95px;
+    width: 208px;
+}
+
+.desktop .rectangle-4 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 1346px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(134.3deg);
+    width: 97px;
+}
+
+.desktop .rectangle-5 {
+    background-color: #f60000;
+    height: 723px;
+    left: 1255px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(133.51deg);
+    width: 112px;
+}
+
+.desktop .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 343px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 1189px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 340px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 1207px;
+    white-space: nowrap;
+}
+
+.desktop .overlap-group {
+    background-color: var(--header);
+    height: 198px;
+    left: 0;
+    position: absolute;
+    top: 1502px;
+    width: 1440px;
+}
+
+.desktop .frame {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 42px;
+    left: 1042px;
+    position: absolute;
+    top: 10px;
+}
+
+.desktop .frame-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.desktop .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+}
+
+.desktop .github {
+    height: 39px;
+    object-fit: cover;
+    position: relative;
+    width: 41px;
+}
+
+.desktop .linkedin {
+    height: 73px;
+    object-fit: cover;
+    position: relative;
+    width: 39px;
+}
+
+.desktop .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 23px;
+    position: relative;
+}
+
+.desktop .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Kokoro-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 138px;
+}
+
+.desktop .rectangle-6 {
+    height: 143px;
+    left: 19px;
+    object-fit: cover;
+    position: absolute;
+    top: 37px;
+    width: 187px;
+}
+
+.desktop .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 210px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 68px;
+    white-space: nowrap;
+}
+
+.desktop .p {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 210px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 127px;
+    white-space: nowrap;
+}
+
+/** HOME */
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    height: 1700px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop .overlap-group {
+    background-color: var(--header);
+    height: 198px;
+    left: 0;
+    position: absolute;
+    top: 1502px;
+    width: 1440px;
+}
+
+.desktop .frame {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 42px;
+    left: 1042px;
+    position: absolute;
+    top: 10px;
+}
+
+.desktop .frame-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.desktop .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+}
+
+.desktop .github {
+    height: 39px;
+    object-fit: cover;
+    position: relative;
+    width: 41px;
+}
+
+.desktop .linkedin {
+    height: 73px;
+    object-fit: cover;
+    position: relative;
+    width: 39px;
+}
+
+.desktop .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 23px;
+    position: relative;
+}
+
+.desktop .text-wrapper {
+    color: #ffffff;
+    font-family: "Kokoro-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 138px;
+}
+
+.desktop .rectangle {
+    height: 143px;
+    left: 30px;
+    object-fit: cover;
+    position: absolute;
+    top: 37px;
+    width: 187px;
+}
+
+.desktop .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 217px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 66px;
+    white-space: nowrap;
+}
+
+.desktop .p {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 217px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 125px;
+    white-space: nowrap;
+}
+
+.desktop .overlap {
+    height: 425px;
+    left: 0;
+    position: absolute;
+    top: 1049px;
+    width: 481px;
+}
+
+.desktop .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 247px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 27px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 248px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 245px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 63px;
+    white-space: nowrap;
+}
+
+.desktop .img {
+    height: 425px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 481px;
+}
+
+.desktop .overlap-2 {
+    height: 630px;
+    left: -95px;
+    position: absolute;
+    top: -95px;
+    width: 1612px;
+}
+
+.desktop .rectangle-2 {
+    height: 536px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 1440px;
+}
+
+.desktop .polygon {
+    height: 215px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 190px;
+}
+
+.desktop .rectangle-3 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 169px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(45.7deg);
+    width: 97px;
+}
+
+.desktop .rectangle-4 {
+    background-color: #f60000;
+    height: 723px;
+    left: 245px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(46.49deg);
+    width: 112px;
+}
+
+.desktop .polygon-2 {
+    height: 215px;
+    left: 1327px;
+    position: absolute;
+    top: 95px;
+    width: 208px;
+}
+
+.desktop .rectangle-5 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 1346px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(134.3deg);
+    width: 97px;
+}
+
+.desktop .rectangle-6 {
+    background-color: #f60000;
+    height: 723px;
+    left: 1255px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(133.51deg);
+    width: 112px;
+}
+
+.desktop .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 191px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 172px;
+}
+
+.desktop .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 369px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 520px;
+    width: 309px;
+}
+
+.desktop .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 979px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 263px;
+}
+
+.desktop .rectangle-7 {
+    height: 235px;
+    left: 427px;
+    object-fit: cover;
+    position: absolute;
+    top: 554px;
+    width: 586px;
+}
+
+/** ALL MENU ITEMS */
+
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    height: 1700px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop .overlap {
+    background-color: var(--header);
+    height: 198px;
+    left: 0;
+    position: absolute;
+    top: 1502px;
+    width: 1440px;
+}
+
+.desktop .frame {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 42px;
+    left: 1042px;
+    position: absolute;
+    top: 10px;
+}
+
+.desktop .frame-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.desktop .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+}
+
+.desktop .github {
+    height: 39px;
+    object-fit: cover;
+    position: relative;
+    width: 41px;
+}
+
+.desktop .linkedin {
+    height: 73px;
+    object-fit: cover;
+    position: relative;
+    width: 39px;
+}
+
+.desktop .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 23px;
+    position: relative;
+}
+
+.desktop .text-wrapper {
+    color: #ffffff;
+    font-family: "Kokoro-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 138px;
+}
+
+.desktop .overlap-group {
+    height: 143px;
+    left: 19px;
+    position: absolute;
+    top: 27px;
+    width: 691px;
+}
+
+.desktop .rectangle {
+    height: 143px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 187px;
+}
+
+.desktop .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 180px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 39px;
+    white-space: nowrap;
+}
+
+.desktop .p {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 180px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 98px;
+    white-space: nowrap;
+}
+
+.desktop .overlap-2 {
+    height: 56px;
+    left: 245px;
+    position: absolute;
+    top: 1076px;
+    width: 47px;
+}
+
+.desktop .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+    white-space: nowrap;
+}
+
+.desktop .overlap-group-2 {
+    height: 1021px;
+    left: -95px;
+    position: absolute;
+    top: -95px;
+    width: 1612px;
+}
+
+.desktop .img {
+    height: 536px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 1440px;
+}
+
+.desktop .polygon {
+    height: 215px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 190px;
+}
+
+.desktop .rectangle-2 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 169px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(45.7deg);
+    width: 97px;
+}
+
+.desktop .rectangle-3 {
+    background-color: #f60000;
+    height: 723px;
+    left: 245px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(46.49deg);
+    width: 112px;
+}
+
+.desktop .polygon-2 {
+    height: 215px;
+    left: 1327px;
+    position: absolute;
+    top: 95px;
+    width: 208px;
+}
+
+.desktop .rectangle-4 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 1346px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(134.3deg);
+    width: 97px;
+}
+
+.desktop .rectangle-5 {
+    background-color: #f60000;
+    height: 723px;
+    left: 1255px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(133.51deg);
+    width: 112px;
+}
+
+.desktop .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 191px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 172px;
+}
+
+.desktop .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 369px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 520px;
+    width: 309px;
+}
+
+.desktop .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 979px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 263px;
+}
+
+.desktop .italy-national-flag {
+    height: 360px;
+    left: 190px;
+    object-fit: cover;
+    position: absolute;
+    top: 631px;
+    width: 590px;
+}
+
+.desktop .italy-national-flag-2 {
+    height: 388px;
+    left: 849px;
+    object-fit: cover;
+    position: absolute;
+    top: 633px;
+    width: 590px;
+}
+
+/** New Menu Item */
+
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    height: 1700px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop .overlap {
+    background-color: var(--header);
+    height: 198px;
+    left: 0;
+    position: absolute;
+    top: 1502px;
+    width: 1440px;
+}
+
+.desktop .frame {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 42px;
+    left: 1042px;
+    position: absolute;
+    top: 10px;
+}
+
+.desktop .frame-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.desktop .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+}
+
+.desktop .github {
+    height: 39px;
+    object-fit: cover;
+    position: relative;
+    width: 41px;
+}
+
+.desktop .linkedin {
+    height: 73px;
+    object-fit: cover;
+    position: relative;
+    width: 39px;
+}
+
+.desktop .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 23px;
+    position: relative;
+}
+
+.desktop .text-wrapper {
+    color: #ffffff;
+    font-family: "Kokoro-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 138px;
+}
+
+.desktop .overlap-group {
+    height: 143px;
+    left: 19px;
+    position: absolute;
+    top: 37px;
+    width: 691px;
+}
+
+.desktop .rectangle {
+    height: 143px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 187px;
+}
+
+.desktop .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 180px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+    white-space: nowrap;
+}
+
+.desktop .p {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 180px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 88px;
+    white-space: nowrap;
+}
+
+.desktop .overlap-group-2 {
+    height: 1597px;
+    left: -95px;
+    position: absolute;
+    top: -95px;
+    width: 1612px;
+}
+
+.desktop .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 342px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 1171px;
+    white-space: nowrap;
+}
+
+.desktop .img {
+    height: 536px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 1440px;
+}
+
+.desktop .polygon {
+    height: 215px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 190px;
+}
+
+.desktop .rectangle-2 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 169px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(45.7deg);
+    width: 97px;
+}
+
+.desktop .rectangle-3 {
+    background-color: #f60000;
+    height: 723px;
+    left: 245px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(46.49deg);
+    width: 112px;
+}
+
+.desktop .polygon-2 {
+    height: 215px;
+    left: 1327px;
+    position: absolute;
+    top: 95px;
+    width: 208px;
+}
+
+.desktop .rectangle-4 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 1346px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(134.3deg);
+    width: 97px;
+}
+
+.desktop .rectangle-5 {
+    background-color: #f60000;
+    height: 723px;
+    left: 1255px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(133.51deg);
+    width: 112px;
+}
+
+.desktop .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 343px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 1189px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 340px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 1207px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 191px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 172px;
+}
+
+.desktop .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 369px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 520px;
+    width: 309px;
+}
+
+.desktop .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 979px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 263px;
+}
+
+.desktop .rectangle-6 {
+    height: 966px;
+    left: 97px;
+    object-fit: cover;
+    position: absolute;
+    top: 631px;
+    width: 1436px;
+}
+
+/** EDIT FORM */
+
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    height: 1700px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop .overlap {
+    background-color: var(--header);
+    height: 198px;
+    left: 0;
+    position: absolute;
+    top: 1502px;
+    width: 1440px;
+}
+
+.desktop .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 42px;
+    left: 1042px;
+    position: absolute;
+    top: 10px;
+}
+
+.desktop .frame-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.desktop .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+}
+
+.desktop .github {
+    height: 39px;
+    object-fit: cover;
+    position: relative;
+    width: 41px;
+}
+
+.desktop .linkedin {
+    height: 73px;
+    object-fit: cover;
+    position: relative;
+    width: 39px;
+}
+
+.desktop .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 23px;
+    position: relative;
+}
+
+.desktop .text-wrapper {
+    color: #ffffff;
+    font-family: "Kokoro-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 138px;
+}
+
+.desktop .overlap-group {
+    height: 143px;
+    left: 19px;
+    position: absolute;
+    top: 37px;
+    width: 674px;
+}
+
+.desktop .rectangle {
+    height: 143px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 187px;
+}
+
+.desktop .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 163px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    white-space: nowrap;
+}
+
+.desktop .p {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 163px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 94px;
+    white-space: nowrap;
+}
+
+.desktop .overlap-group-2 {
+    height: 1597px;
+    left: -95px;
+    position: absolute;
+    top: -95px;
+    width: 1612px;
+}
+
+.desktop .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 342px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 1171px;
+    white-space: nowrap;
+}
+
+.desktop .img {
+    height: 536px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 1440px;
+}
+
+.desktop .polygon {
+    height: 215px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 190px;
+}
+
+.desktop .rectangle-2 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 169px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(45.7deg);
+    width: 97px;
+}
+
+.desktop .rectangle-3 {
+    background-color: #f60000;
+    height: 723px;
+    left: 245px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(46.49deg);
+    width: 112px;
+}
+
+.desktop .polygon-2 {
+    height: 215px;
+    left: 1327px;
+    position: absolute;
+    top: 95px;
+    width: 208px;
+}
+
+.desktop .rectangle-4 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 1346px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(134.3deg);
+    width: 97px;
+}
+
+.desktop .rectangle-5 {
+    background-color: #f60000;
+    height: 723px;
+    left: 1255px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(133.51deg);
+    width: 112px;
+}
+
+.desktop .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 343px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 1189px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 340px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 1207px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 191px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 172px;
+}
+
+.desktop .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 369px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 520px;
+    width: 309px;
+}
+
+.desktop .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 979px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 263px;
+}
+
+.desktop .rectangle-6 {
+    height: 966px;
+    left: 312px;
+    object-fit: cover;
+    position: absolute;
+    top: 631px;
+    width: 999px;
+}
