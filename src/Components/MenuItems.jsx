@@ -5,7 +5,16 @@ const API = import.meta.env.VITE_API_URL;
 
 function MenuItems() {
     const [menuItems, setMenuItems] = useState([]);
-    useEffect(() => { }, []);
+    useEffect(() => {
+        fetch(`${API}/menuItems`)
+            .then((response) => {
+                return response.json();
+            })
+            .then((responseJSON) => {
+                setMenuItems(responseJSON);
+            })
+            .catch((error) => console.error(error));
+    }, []);
 
     return (
         <div className="MenuItems">
