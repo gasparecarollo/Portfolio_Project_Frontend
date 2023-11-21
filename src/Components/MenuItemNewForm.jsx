@@ -10,21 +10,23 @@ function MenuItemNewForm() {
         image_id: "",
         category: "",
         description: "",
-        price: "",
+        price: 0,
         out_of_stock: false,
         ranking: "",
     });
 
     //Add a Menu item. Redirect to the index view.
     const addMenuItem = () => {
-        fetch(`${API}/menuitems`, {
+        fetch(`${API}/menu`, {
             method: "POST",
-            body: JSON.stringify(menuitem),
+            body: JSON.stringify(menuItem),
             headers: {
                 "Content-Type": "application/json",
             },
         })
-            .then(() => {
+            .then(response => response.json())
+            .then((data) => {
+                setMenuItem(data);
                 navigate(`/menuitems`);
             })
             .catch((error) => console.error("catch", error));
@@ -38,7 +40,7 @@ function MenuItemNewForm() {
     };
 
     const handleCheckboxChange = () => {
-        setMenuItem({ ...menuItem, out_of_stock: !out_of_stock })
+        setMenuItem({ ...menuItem, out_of_stock: !menuItem.out_of_stock })
     };
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -48,6 +50,7 @@ function MenuItemNewForm() {
     return (
         <div className="New">
             <form onSubmit={handleSubmit}>
+                <button type="submit"> Submit</button>
                 <label htmlFor="name"> Name: </label>
                 <input
                     id="name"
@@ -79,6 +82,7 @@ function MenuItemNewForm() {
                     id="description"
                     name="description"
                     value={menuItem.description}
+                    onChange={handleTextChange}
                     placeholder="Describe the food item your adding to your menu."
                 />
                 <label htmlFor="Price"> Price: </label>
@@ -111,7 +115,6 @@ function MenuItemNewForm() {
                     placeholder="A ranking between 1 and 10"
                 />
                 <br />
-                <input type="submit" />
             </form>
         </div>
     );

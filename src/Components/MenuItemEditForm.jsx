@@ -111,7 +111,7 @@ function MenuItemEditForm() {
                 <label htmlFor="price"> Price </label>
                 <input id="price" value={menuItem.price}
                     type="number"
-                    onChange={handleText}
+                    onChange={handleTextChange}
                     placeholder="Price of the food item"
                     required
                 />
@@ -128,7 +128,7 @@ function MenuItemEditForm() {
                 <br />
                 <input type="submit" />
             </form >
-            <Link to={`menuItems/${id}`}>
+            <Link to={`/menuitems/${id}`}>
                 <button> On Second Thought!</button>
             </Link>
         </div >

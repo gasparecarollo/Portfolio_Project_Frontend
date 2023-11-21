@@ -5,7 +5,8 @@ import "../styles/style.css";
 export const AllItemsPage = () => {
     return (
         <div className="AllItemsPage">
-            <div className="div">
+            <MenuItems />
+            {/* <div className="div">
                 <div className="overlap">
                     <div className="frame">
                         <div className="frame-wrapper">
@@ -34,7 +35,7 @@ export const AllItemsPage = () => {
                 </div>
                 <div className="overlap-group-2">
                     <img className="img" alt="Rectangle" src="/images/rectangle-1@2x.png" />
-                    <img className="polygon" alt="Polygon" src="/images/polygonleft.png" />
+                    <img className="polygon" alt="Polygon" src="/images/Polygonleft.png" />
                     <div className="rectangle-2" />
                     <div className="rectangle-3" />
                     <img className="polygon-2" alt="Polygon" src="/images/polygonright.png" />
@@ -42,21 +43,21 @@ export const AllItemsPage = () => {
                     <div className="rectangle-5" />
                     <div className="text-wrapper-6">HOME</div>
                     <div className="text-wrapper-7">MENU FORM</div>
-                    <div className="text-wrapper-8">EDIT FORM</div>
+                    <div className="text-wrapper-8">EDIT FORM</div> */}
 
-                    <MenuItems />
-                    <img
-                        className="italy-national-flag"
-                        alt="Italy national flag"
-                        src="/images/italy-national-flag-festive-bunting-against-plain-white-background-3d-rendering-601748-26030-1@2x.png"
-                    />
-                    <img
-                        className="italy-national-flag-2"
-                        alt="Italy national flag"
-                        src="/images/italy-national-flag-festive-bunting-against-plain-white-background-3d-rendering-601748-26030-2@2x.png"
-                    />
-                </div>
-            </div>
+            {/* 
+            <img
+                className="italy-national-flag"
+                alt="Italy national flag"
+                src="/images/italynationalflagfestivebuntingagainstplainwhitebackground3drendering-60174826030-1@2x.png"
+            />
+            <img
+                className="italy-national-flag-2"
+                alt="Italy national flag"
+                src="/images/italynationalflagfestivebuntingagainstplainwhitebackground3drendering-60174826030-2@2x copy.png"
+            />
         </div>
+            </div > */}
+        </div >
     );
 };

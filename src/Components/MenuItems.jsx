@@ -1,16 +1,17 @@
 import { useState, useEffect } from "react";
 import MenuItem from "./MenuItem";
 
-const API = import.meta.env.VITE_API_URL;
+const API = import.meta.env.VITE_BASE_URL;
 
 function MenuItems() {
     const [menuItems, setMenuItems] = useState([]);
     useEffect(() => {
-        fetch(`${API}/menuItems`)
+        fetch(`${API}/menu`)
             .then((response) => {
                 return response.json();
             })
             .then((responseJSON) => {
+                console.log(responseJSON);
                 setMenuItems(responseJSON);
             })
             .catch((error) => console.error(error));
@@ -22,9 +23,10 @@ function MenuItems() {
                 <table>
                     <thead>
                         <tr>
-                            <th></th>
-                            <th> Take me there </th>
-                            <th> See this menu item</th>
+                            <th>Name</th>
+                            <th>Category </th>
+                            <th> Price</th>
+                            <th> Description</th>
                         </tr>
                     </thead>
                     <tbody>
