@@ -1,29 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/style.css";
 
 export const LandingPage = () => {
     return (
-        <div className="desktop">
+        <div className="LandingPage">
             <div className="div">
                 <div className="overlap">
-                    <img className="foodtruckdesign" alt="Foodtruckdesign" src="foodtruckdesign-1.png" />
-                    <div className="text-wrapper">HOME</div>
-                    <img className="rectangle" alt="Rectangle" src="rectangle-1.svg" />
-                    <img className="polygon" alt="Polygon" src="polygon-1.svg" />
+                    <img className="foodtruckdesign" alt="Foodtruckdesign" src="/images/foodtruckdesign-1@2x.png" />
+                    <Link to="/" className="text-wrapper">HOME </Link>
+                    <img className="rectangle" alt="Rectangle" src="/images/rectangle-1@2x.png" />
+                    <img className="polygon" alt="Polygon" src="/images/Polygonleft.png" />
                     <div className="rectangle-2" />
                     <div className="rectangle-3" />
-                    <img className="img" alt="Polygon" src="image.svg" />
+                    <img className="img" alt="Polygon" src="/images/polygonright.png" />
                     <div className="rectangle-4" />
                     <div className="rectangle-5" />
-                    <div className="text-wrapper-2">MENU</div>
+                    <Link to="/allmenuitems" className="text-wrapper-2">MENU </Link>
                     <div className="text-wrapper-3">ABOUT</div>
                 </div>
                 <div className="overlap-group">
                     <div className="frame">
                         <div className="frame-wrapper">
                             <div className="frame-2">
-                                <img className="github" alt="Github" src="github-1.png" />
-                                <img className="linkedin" alt="Linkedin" src="linkedin-1.png" />
+                                <a href="https://github.com/gasparecarollo" target="_blank" rel="noopener noreferrer">
+                                    <img className="github" alt="Github" src="/images/github-1@2x.png" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/gcarollo85/" target="_blank" rel="noopener noreferrer">
+                                    <img className="linkedin" alt="Linkedin" src="/images/linkedin-1@2x.png" />
+                                </a>
                             </div>
                         </div>
                         <div className="frame-wrapper">
@@ -33,11 +38,11 @@ export const LandingPage = () => {
                             </div>
                         </div>
                     </div>
-                    <img className="rectangle-6" alt="Rectangle" src="rectangle-6.png" />
+                    <img className="rectangle-6" alt="Rectangle" src="/images/rectangle-6@2x.png" />
                     <div className="text-wrapper-5">CAPRICCIO FOOD TRUCK INC.</div>
                     <p className="p">Coming to a neighborhood near you.</p>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };

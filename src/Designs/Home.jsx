@@ -3,7 +3,7 @@ import "../styles/style.css";
 
 export const Home = () => {
     return (
-        <div className="desktop">
+        <div className="Home">
             <div className="div">
                 <div className="overlap-group">
                     <div className="frame">

@@ -3,7 +3,7 @@ import "../styles/style.css";
 
 export const EditFormPage = () => {
     return (
-        <div className="desktop">
+        <div className="Edit">
             <div className="div">
                 <div className="overlap">
                     <div className="frame">

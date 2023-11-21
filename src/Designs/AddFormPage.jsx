@@ -3,7 +3,7 @@ import "../styles/style.css";
 
 export const AddFormPage = () => {
     return (
-        <div className="desktop">
+        <div className="AddFormPage">
             <div className="div">
                 <div className="overlap">
                     <div className="frame">
