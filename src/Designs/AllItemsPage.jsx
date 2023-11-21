@@ -1,7 +1,7 @@
 import React from "react";
-import "./style.css";
+import "../styles/styles.css";
 
-export const Desktop = () => {
+export const AllMenuItemsIndex = () => {
     return (
         <div className="desktop">
             <div className="div">
@@ -21,13 +21,17 @@ export const Desktop = () => {
                         </div>
                     </div>
                     <div className="overlap-group">
-                        <img className="rectangle" alt="Rectangle" src="rectangle-7.png" />
+                        <img className="rectangle" alt="Rectangle" src="rectangle-6.png" />
                         <div className="text-wrapper-2">CAPRICCIO FOOD TRUCK INC.</div>
                         <p className="p">Coming to a neighborhood near you.</p>
                     </div>
                 </div>
-                <div className="overlap-group-2">
+                <div className="overlap-2">
                     <div className="text-wrapper-3">HOME</div>
+                    <div className="text-wrapper-4">MENU</div>
+                    <div className="text-wrapper-5">ABOUT</div>
+                </div>
+                <div className="overlap-group-2">
                     <img className="img" alt="Rectangle" src="rectangle-1.svg" />
                     <img className="polygon" alt="Polygon" src="polygon-1.svg" />
                     <div className="rectangle-2" />
@@ -35,12 +39,19 @@ export const Desktop = () => {
                     <img className="polygon-2" alt="Polygon" src="image.svg" />
                     <div className="rectangle-4" />
                     <div className="rectangle-5" />
-                    <div className="text-wrapper-4">MENU</div>
-                    <div className="text-wrapper-5">ABOUT</div>
                     <div className="text-wrapper-6">HOME</div>
                     <div className="text-wrapper-7">MENU FORM</div>
                     <div className="text-wrapper-8">EDIT FORM</div>
-                    <img className="rectangle-6" alt="Rectangle" src="rectangle-6.png" />
+                    <img
+                        className="italy-national-flag"
+                        alt="Italy national flag"
+                        src="italy-national-flag-festive-bunting-against-plain-white-background-3d-rendering-601748-26030-1.png"
+                    />
+                    <img
+                        className="italy-national-flag-2"
+                        alt="Italy national flag"
+                        src="italy-national-flag-festive-bunting-against-plain-white-background-3d-rendering-601748-26030-2.png"
+                    />
                 </div>
             </div>
         </div>

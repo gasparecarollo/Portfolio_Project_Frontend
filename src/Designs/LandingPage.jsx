@@ -1,7 +1,7 @@
 import React from "react";
-import "./style.css";
+import "../styles/styles.css";
 
-export const Desktop = () => {
+export const LandingPage = () => {
     return (
         <div className="desktop">
             <div className="div">

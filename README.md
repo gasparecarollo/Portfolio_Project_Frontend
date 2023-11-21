@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 
 Credit to https://capriccio.sydney/ for the logo.
+Credit to Moshfequr Rahman for the Twitter tweet design https://codepen.io/moshfequr9/pen/wXQbPR

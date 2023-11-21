@@ -135,4 +135,4 @@ function MenuItemEditForm() {
     );
 }
 
-module.exports = MenuItemEditForm;
+export default MenuItemEditForm;
