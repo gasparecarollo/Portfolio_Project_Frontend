@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/styles.css";
+import "../styles/style.css";
 
-export const AllMenuItemsIndex = () => {
+export const AllItemsPage = () => {
     return (
         <div className="desktop">
             <div className="div">

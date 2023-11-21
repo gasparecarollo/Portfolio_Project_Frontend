@@ -1465,3 +1465,357 @@
     top: 631px;
     width: 999px;
 }
+
+/** FOUROFOUR */
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    height: 1700px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop .overlap-group {
+    background-color: var(--header);
+    height: 198px;
+    left: 0;
+    position: absolute;
+    top: 1502px;
+    width: 1440px;
+}
+
+.desktop .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 42px;
+    left: 1042px;
+    position: absolute;
+    top: 10px;
+}
+
+.desktop .frame-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.desktop .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+}
+
+.desktop .github {
+    height: 39px;
+    object-fit: cover;
+    position: relative;
+    width: 41px;
+}
+
+.desktop .linkedin {
+    height: 73px;
+    object-fit: cover;
+    position: relative;
+    width: 39px;
+}
+
+.desktop .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 23px;
+    position: relative;
+}
+
+.desktop .text-wrapper {
+    color: #ffffff;
+    font-family: "Kokoro-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 138px;
+}
+
+.desktop .overlap {
+    height: 143px;
+    left: 19px;
+    position: absolute;
+    top: 37px;
+    width: 674px;
+}
+
+.desktop .rectangle {
+    height: 143px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 187px;
+}
+
+.desktop .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 163px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    white-space: nowrap;
+}
+
+.desktop .p {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 163px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 94px;
+    white-space: nowrap;
+}
+
+.desktop .overlap-2 {
+    height: 851px;
+    left: 81px;
+    position: absolute;
+    top: 582px;
+    width: 851px;
+}
+
+.desktop .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 166px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 494px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 167px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 512px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 164px;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    position: absolute;
+    text-align: center;
+    top: 530px;
+    white-space: nowrap;
+}
+
+.desktop .img {
+    height: 851px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 851px;
+}
+
+.desktop .overlap-3 {
+    height: 630px;
+    left: -95px;
+    position: absolute;
+    top: -95px;
+    width: 1612px;
+}
+
+.desktop .rectangle-2 {
+    height: 536px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 1440px;
+}
+
+.desktop .polygon {
+    height: 215px;
+    left: 95px;
+    position: absolute;
+    top: 95px;
+    width: 190px;
+}
+
+.desktop .rectangle-3 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 169px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(45.7deg);
+    width: 97px;
+}
+
+.desktop .rectangle-4 {
+    background-color: #f60000;
+    height: 723px;
+    left: 245px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(46.49deg);
+    width: 112px;
+}
+
+.desktop .polygon-2 {
+    height: 215px;
+    left: 1327px;
+    position: absolute;
+    top: 95px;
+    width: 208px;
+}
+
+.desktop .rectangle-5 {
+    background-color: #ffffff;
+    height: 485px;
+    left: 1346px;
+    position: absolute;
+    top: -13px;
+    transform: rotate(134.3deg);
+    width: 97px;
+}
+
+.desktop .rectangle-6 {
+    background-color: #f60000;
+    height: 723px;
+    left: 1255px;
+    position: absolute;
+    top: -72px;
+    transform: rotate(133.51deg);
+    width: 112px;
+}
+
+.desktop .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 191px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 172px;
+}
+
+.desktop .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 369px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 520px;
+    width: 309px;
+}
+
+.desktop .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Cabin Sketch-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 979px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 521px;
+    width: 263px;
+}
+
+.desktop .ayyy-ohh-watsa {
+    color: #000000;
+    font-family: "Ingrid Darling-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    left: 983px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 609px;
+    width: 423px;
+}
+
+/**  GrubFinder  */
+
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    height: 1770px;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop .rectangle {
+    height: 1003px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+}
+
+.desktop .rectangle-2 {
+    background-color: #fff48e;
+    height: 342px;
+    left: 0;
+    position: absolute;
+    top: 1428px;
+    width: 1440px;
+}

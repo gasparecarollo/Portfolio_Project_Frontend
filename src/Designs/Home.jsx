@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/styles.css";
+import "../styles/style.css";
 
-export const HomePage = () => {
+export const Home = () => {
     return (
         <div className="desktop">
             <div className="div">
