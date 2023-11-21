@@ -39,7 +39,7 @@ export const LandingPage = () => {
                         </div>
                     </div>
                     <img className="rectangle-6" alt="Rectangle" src="/images/rectangle-6@2x.png" />
-                    <div className="text-wrapper-5">CAPRICCIO FOOD TRUCK INC.</div>
+                    <div className="text-wrapper-5 capriccio" id="capriccio">CAPRICCIO FOOD TRUCK INC.</div>
                     <p className="p">Coming to a neighborhood near you.</p>
                 </div>
             </div >

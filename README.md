@@ -7,6 +7,10 @@ Link to Github Repository for the Portfolio Project's Frontend: https://github.c
 
 Link to Github Repository for the backend for the portfolio project: https://github.com/gasparecarollo/Portfolio_Project_Backend
 ____________________________________________________________________________
+NETLIFY LINK: https://stalwart-cucurucho-690c62.netlify.app
+RENDER API LINK: https://foodtruck-db.onrender.com
+____________________________________________________________________________
+
 Table of Contents
 About
 Getting Started

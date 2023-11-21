@@ -32,7 +32,7 @@ export const EditFormPage = () => {
                     <img className="polygon" alt="Polygon" src="/images/polygonleft.png" />
                     <div className="rectangle-2" />
                     <div className="rectangle-3" />
-                    <img className="polygon-2" alt="Polygon" src="/image/polygonright.png" />
+                    <img className="polygon-2" alt="Polygon" src="/images/polygonright.png" />
                     <div className="rectangle-4" />
                     <div className="rectangle-5" />
                     <div className="text-wrapper-4">MENU</div>

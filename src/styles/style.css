@@ -62,7 +62,7 @@
 }
 
 .LandingPage .rectangle-2 {
-    background-color: #ffffff;
+    background-color: #2C78BE;
     height: 485px;
     left: 169px;
     position: absolute;
@@ -244,6 +244,8 @@
     top: 127px;
     white-space: nowrap;
 }
+
+
 
 /** HOME */
 .Home {
@@ -1818,4 +1820,10 @@
     position: absolute;
     top: 1428px;
     width: 1440px;
+}
+
+#capriccio {
+    color: #000000;
+
+
 }

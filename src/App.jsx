@@ -30,7 +30,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/menuItems" element={<AllItemsPage />} />
             <Route path="/menuItems/new" element={<AddFormPage />} />
             {/* <Route exact path="/menuItems/:id" element={< />} /> */}

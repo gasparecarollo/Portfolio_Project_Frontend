@@ -1,4 +1,5 @@
 import React from "react";
+import MenuItems from "../Components/MenuItems";
 import "../styles/style.css";
 
 export const AllItemsPage = () => {
@@ -22,7 +23,7 @@ export const AllItemsPage = () => {
                     </div>
                     <div className="overlap-group">
                         <img className="rectangle" alt="Rectangle" src="/images/rectangle-6@2x.png" />
-                        <div className="text-wrapper-2">CAPRICCIO FOOD TRUCK INC.</div>
+                        <div className="text-wrapper-2 capriccio">CAPRICCIO FOOD TRUCK INC.</div>
                         <p className="p">Coming to a neighborhood near you.</p>
                     </div>
                 </div>
@@ -42,6 +43,8 @@ export const AllItemsPage = () => {
                     <div className="text-wrapper-6">HOME</div>
                     <div className="text-wrapper-7">MENU FORM</div>
                     <div className="text-wrapper-8">EDIT FORM</div>
+
+                    <MenuItems />
                     <img
                         className="italy-national-flag"
                         alt="Italy national flag"
