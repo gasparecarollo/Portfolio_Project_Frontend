@@ -27,7 +27,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar />
         <main>
           <Routes>
             <Route path="/" element={<LandingPage />} />

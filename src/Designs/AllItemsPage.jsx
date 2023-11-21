@@ -9,8 +9,8 @@ export const AllItemsPage = () => {
                     <div className="frame">
                         <div className="frame-wrapper">
                             <div className="frame-2">
-                                <img className="github" alt="Github" src="github-1.png" />
-                                <img className="linkedin" alt="Linkedin" src="linkedin-1.png" />
+                                <img className="github" alt="Github" src="/images/github-1@2x.png" />
+                                <img className="linkedin" alt="Linkedin" src="/images/linkedin-1@2x.png" />
                             </div>
                         </div>
                         <div className="frame-wrapper">
@@ -21,7 +21,7 @@ export const AllItemsPage = () => {
                         </div>
                     </div>
                     <div className="overlap-group">
-                        <img className="rectangle" alt="Rectangle" src="rectangle-6.png" />
+                        <img className="rectangle" alt="Rectangle" src="/images/rectangle-6@2x.png" />
                         <div className="text-wrapper-2">CAPRICCIO FOOD TRUCK INC.</div>
                         <p className="p">Coming to a neighborhood near you.</p>
                     </div>
@@ -32,11 +32,11 @@ export const AllItemsPage = () => {
                     <div className="text-wrapper-5">ABOUT</div>
                 </div>
                 <div className="overlap-group-2">
-                    <img className="img" alt="Rectangle" src="rectangle-1.svg" />
-                    <img className="polygon" alt="Polygon" src="polygon-1.svg" />
+                    <img className="img" alt="Rectangle" src="/images/rectangle-1@2x.png" />
+                    <img className="polygon" alt="Polygon" src="/images/polygonleft.png" />
                     <div className="rectangle-2" />
                     <div className="rectangle-3" />
-                    <img className="polygon-2" alt="Polygon" src="image.svg" />
+                    <img className="polygon-2" alt="Polygon" src="/images/polygonright.png" />
                     <div className="rectangle-4" />
                     <div className="rectangle-5" />
                     <div className="text-wrapper-6">HOME</div>
@@ -45,12 +45,12 @@ export const AllItemsPage = () => {
                     <img
                         className="italy-national-flag"
                         alt="Italy national flag"
-                        src="italy-national-flag-festive-bunting-against-plain-white-background-3d-rendering-601748-26030-1.png"
+                        src="/images/italy-national-flag-festive-bunting-against-plain-white-background-3d-rendering-601748-26030-1@2x.png"
                     />
                     <img
                         className="italy-national-flag-2"
                         alt="Italy national flag"
-                        src="italy-national-flag-festive-bunting-against-plain-white-background-3d-rendering-601748-26030-2.png"
+                        src="/images/italy-national-flag-festive-bunting-against-plain-white-background-3d-rendering-601748-26030-2@2x.png"
                     />
                 </div>
             </div>
