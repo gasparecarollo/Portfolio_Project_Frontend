@@ -8,7 +8,7 @@ function Tweet({ tweet, handleDelete, handleSubmit }) {
     };
     return (
         <div className="Tweet">
-            {tweetEditForm ? (
+            {TweetEditForm ? (
                 <TweetEditForm tweetDetails={tweet} toggleView={toggleView}
                     handleSubmit={handleSubmit} />
             ) : (

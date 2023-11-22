@@ -92,8 +92,8 @@ function MenuItemEditForm() {
                     placeholder="name of the category of food for this menu item"
                     onChange={handleTextChange}
                 />
-                <label
-                    htmlFor="out_of_stock"
+                <label htmlFor="In Stock" > Stock Availability:</label>
+                <input
                     id="stock"
                     type="checkbox"
                     onChange={handleCheckboxChange}

@@ -35,6 +35,7 @@ function App() {
     <div className="App">
       <Router>
         <main>
+          <NavBar />
           <Routes>
             <Route path="/" element={<LandPage />} />
             <Route path="/home" element={<Home />} />
