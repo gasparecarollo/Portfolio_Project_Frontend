@@ -41,6 +41,22 @@ Open your terminal.
 
 Run the following command to install Vite version 4:    ```shell    npm install vite@4
 ____________________________________________________________________________
+Routes
+
+/: This route renders the LandPage component, presumably the main landing page of the app.
+
+/home: This route renders the Home component, which is likely a dedicated home page with specific functionality.
+
+/menuitems: This route renders the Index component, which is assumed to be the index page for managing menu items.
+
+/menuitems/new: This route renders the New component, which is likely used for creating new menu items.
+
+/menuitems/:id: This route renders the Show component, which is presumably used to display a specific menu item based on the provided ID. The colon (:) before id indicates that id is a dynamic parameter that will be passed to the Show component.
+
+/menuitems/:id/edit: This route renders the Edit component, which is likely used for editing an existing menu item based on the provided ID. Similar to the Show route, the colon (:) before id indicates that id is a dynamic parameter.
+
+________________________________________________________________________________________
+
 
 Contributing
 Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please open an issue or submit a pull request.

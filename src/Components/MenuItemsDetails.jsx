@@ -19,14 +19,12 @@ const MenuItemsDetails = () => {
     const { id } = useParams();
     const { navigate } = useNavigate();
 
-    const [imageId, setImageId] = useState(null);
-
     useEffect(() => {
-        fetch(`${API}/menu/${id}`)
+        fetch(`${API}/menuitems/${id}`)
             .then(res => res.json())
             .then(res => {
                 setItem(res)
-                setImageId(res.image_id)
+
             })
             .catch((error) => {
                 console.error(error);
@@ -51,7 +49,7 @@ const MenuItemsDetails = () => {
                 <h2> Food Name: {item.name} </h2>
                 <h2>Category: {item.category}</h2>
                 <h2> Description: {item.description}</h2>
-                <h2> Photo: <img src={`../assets/pics/${imageId}`} alt="Food pic" /></h2>
+                <h2> Photo: <img src={`/images/${item.image_id}.png`} alt="Food pic" /></h2>
                 <h2>Price: ${item.price}</h2>
                 <h2> InStock: {item.out_of_stock}</h2>
                 <h2> Ranking: {item.ranking}</h2>

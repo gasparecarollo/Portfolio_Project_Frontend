@@ -4,7 +4,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 const API = import.meta.env.VITE_BASE_URL;
 
 function MenuItemEditForm() {
-    let { id } = useParams();
+    const { id } = useParams();
     const navigate = useNavigate();
 
     const [menuItem, setMenuItem] = useState({
@@ -37,7 +37,7 @@ function MenuItemEditForm() {
             },
         })
             .then((response) => {
-                navigate(`/menuItems/${id}`);
+                navigate(`/menuItems/${response.id}`);
             })
             .catch((error) => console.error("catch", error));
 
@@ -92,9 +92,10 @@ function MenuItemEditForm() {
                     placeholder="name of the category of food for this menu item"
                     onChange={handleTextChange}
                 />
-                <label htmlFor="In Stock" > Stock Availability:</label>
+                <label htmlFor="out_of_stock" > Stock Availability:</label>
                 <input
-                    id="stock"
+                    id="out_of_stock"
+                    name="out_of_stock"
                     type="checkbox"
                     onChange={handleCheckboxChange}
                     checked={menuItem.out_of_stock}
