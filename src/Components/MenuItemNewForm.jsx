@@ -35,7 +35,7 @@ function MenuItemNewForm() {
     const handleTextChange = (event) => {
         setMenuItem({
             ...menuItem, [event.target.id]:
-                event.target.value
+                event.target.type === "number" ? parseFloat(event.target.value) : event.target.value
         });
     };
 
