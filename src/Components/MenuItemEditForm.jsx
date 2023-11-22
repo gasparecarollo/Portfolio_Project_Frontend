@@ -26,41 +26,41 @@ function MenuItemEditForm() {
         setMenuItem({ ...menuItem, out_of_stock: !menuItem.out_of_stock })
     };
 
-    const updateMenuItem = () => {
-        console.log(`${API}/menuItems/${id}`);
+    const updateMenuItem = async () => {
+        const menuData = {
+            name: menuItem.name,
+            category: menuItem.category,
+            image_id: menuItem.image_id,
+            description: menuItem.description,
+            price: menuItem.price,
+            ranking: menuItem.ranking,
+            out_of_stock: menuItem.out_of_stock
+        }
 
-        fetch(`${API}/menuItems/${id}`, {
-            method: "PUT",
-            body: JSON.stringify(menuItem),
-            headers: {
-                "Content-Type": "application/json",
-            },
-        })
-            .then((response) => {
-                navigate(`/menuItems/${response.id}`);
-            })
-            .catch((error) => console.error("catch", error));
-
+        try {
+            const fetchMenu = await
+                fetch(`${API}/menuItems/${id}`, {
+                    method: "PUT",
+                    body: JSON.stringify(menuData),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                })
+            if (!fetchMenu.ok) {
+                throw new Error({ Error: `Invalid response: ${fetchMenu.status}` });
+            };
+            navigate(`/menuItems/${id}`);
+        } catch (error) {
+            return error
+        }
     };
-
-
-    //On page load, fill in the form with menuitem data.
-
-    useEffect(() => {
-        fetch(`${API}/menuitems/${id}`)
-            .then((response) => {
-                return response.json();
-            })
-            .then((responseJSON) => {
-                setMenuItem(responseJSON);
-            })
-            .catch((error) => console.error(error));
-    }, [id]);
 
     const handleSubmit = (event) => {
         event.preventDefault();
         updateMenuItem();
     };
+
+
 
     return (
         <div className="Edit">
@@ -127,7 +127,7 @@ function MenuItemEditForm() {
                     placeholder="Rank the food item from 1-10"
                 />
                 <br />
-                <input type="submit" />
+                <button type="submit"> Submit </button>
             </form >
             <Link to={`/menuitems/${id}`}>
                 <button> On Second Thought!</button>
