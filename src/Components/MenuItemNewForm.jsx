@@ -14,43 +14,57 @@ function MenuItemNewForm() {
         out_of_stock: false,
         ranking: "",
     });
+    const addItem = () => {
+        const menuData = {
+            name: menuItem.name,
+            category: menuItem.category,
+            image_id: menuItem.image_id,
+            description: menuItem.description,
+            price: menuItem.price,
+            out_of_stock: menuItem.out_of_stock,
+            ranking: menuItem.ranking
+        }
 
-    //Add a Menu item. Redirect to the index view.
-    const addMenuItem = () => {
-        fetch(`${API}/menu`, {
-            method: "POST",
-            body: JSON.stringify(menuItem),
-            headers: {
-                "Content-Type": "application/json",
-            },
-        })
-            .then(response => response.json())
-            .then((data) => {
-                setMenuItem(data);
-                navigate(`/menuitems`);
+        //Add a Menu item. Redirect to the index view.
+        try {
+            fetch(`${API}/menu`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(menuData),
             })
-            .catch((error) => console.error("catch", error));
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Failed to menu item")
+                    }
+                    return response.json();
+                })
+                .then(() => navigate('/menuItems'))
+        } catch (error) {
+            console.error("Error adding menu item", error);
+        }
     };
 
     const handleTextChange = (event) => {
         setMenuItem({
             ...menuItem, [event.target.id]:
-                event.target.type === "number" ? parseFloat(event.target.value) : event.target.value
+                event.target.value
         });
     };
 
     const handleCheckboxChange = () => {
-        setMenuItem({ ...menuItem, out_of_stock: !menuItem.out_of_stock })
+        setMenuItem({ ...menuItem, out_of_stock: !menuItem.out_of_stock });
     };
     const handleSubmit = (event) => {
         event.preventDefault();
-        addMenuItem();
+        addItem();
+        navigate('/menuItems')
     };
 
     return (
         <div className="New">
             <form onSubmit={handleSubmit}>
-                <button type="submit"> Submit</button>
                 <label htmlFor="name"> Name: </label>
                 <input
                     id="name"
@@ -115,7 +129,11 @@ function MenuItemNewForm() {
                     placeholder="A ranking between 1 and 10"
                 />
                 <br />
+                <button type="submit"> Submit</button>
             </form>
+            <Link to={'/menuItems'} >
+                <button> On Second thought!</button>
+            </Link>
         </div>
     );
 }
